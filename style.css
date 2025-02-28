@@ -14,7 +14,7 @@
     flex: 1 1 0;
     max-width: 200px;
     padding: 2rem 1rem;
-    background-color: #2e3047;
+    background-color: #ff00ff4d;
 }
 
 .sidebar .logo {
@@ -30,14 +30,14 @@
 .sidebar .menu .menu-item {
     display: flex;
     padding:  1em;
-    color: #f3b7e1;
+    color: #ff56cc;
     text-decoration: none;
     transition: 0.2s linear;
 }
 
 .sidebar .menu .menu-item:hover,
 .sidebar .menu .menu-item.active {
-    color: #ff80d9;
+    color: #ff08b5;
     border-right: 5px solid;
 }
 
