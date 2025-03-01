@@ -83,7 +83,7 @@ body {
 }
 
 .logo:hover {
-    transform: rotate(12deg);
+    transform: scale(105%);
 }
 
 .navBar .menu {
