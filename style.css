@@ -10,6 +10,16 @@
     min-height: 100vh;
 }
 
+.logoContainer {
+    margin-top: -25px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
 .sidebar {
     flex: 1 1 0;
     max-width: 200px;
@@ -18,8 +28,6 @@
 }
 
 .sidebar .logo {
-    margin: -50px -17px;
-    margin-bottom: -17px;
     height: 200px;
     transition: 0.3s linear;
 }
@@ -87,21 +95,49 @@ hr.round {
 }
 
 .MainText .card {
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 3px solid #ff56cc;
     background-color: #ffc0ea;
     border-radius: 10px;
-    width: 20rem;
+    width: 30rem;
     padding: 9px;
+}
+
+.card .lineDeco {
+    margin-bottom: 9px;
+    margin-top: 9px;
+    color: #ff08b5;
+    text-shadow: #7a0164 0px 0px 3px;
 }
 
 @media (max-width: 1024px) {
     .sidebar .logo {
         margin: -25px -7px;
         margin-bottom: 0.5rem;
-        height: 80px;
+        height: 120px;
     }
 
     .sidebar {
         max-width: 100px;
+    }
+
+    .logoContainer {
+        margin-top: -40px;
+        margin-bottom: -39px;
+    }
+
+    .MainText .card {
+        font-size: 18px;
+        width: 15rem;
+        padding: 9px;
+    }
+
+    .card .lineDeco {
+        font-size: 12px;
+    }    
+
+    .MainText h3 {
+        font-size: 30px;
     }
 }
