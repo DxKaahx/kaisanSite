@@ -96,8 +96,9 @@ html, body {
 
 .navBar .menu .menu-item:hover,
 .navBar .menu .menu-item.active {
-    color: hsl(345, 100%, 64%);
-    background-color: #ffc0ea;
+    font-weight: bold;
+    color: rgb(255, 71, 117);
+    background-color: #ffc2d1;
     border-right: 5px solid;
     border-radius: 3px;
 }
